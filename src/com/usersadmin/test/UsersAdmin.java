@@ -217,17 +217,8 @@ public class UsersAdmin {
 				System.out.println(Users[i].getName() + "\t" + Users[i].getNumber() + "\t" + Users[i].getPosition()
 						+ "\t" + Users[i].getXueyuan() + "\t" + Users[i].getProvince() + "\t\t" + Users[i].getStatus()
 						+ "\t" + Users[i].getIsolation() + "\t\t" + Users[i].getDate());
-
-				num1++;
 			}
 		}
-
-		System.out.print("有疫情疑似症状的人数：");
-		for (j = 0; j < num1; j++) {
-			System.out.print("*");
-
-		}
-		System.out.println(" ");
 	}
 
 	/* 被隔离人员信息 */
@@ -246,16 +237,8 @@ public class UsersAdmin {
 						"-----------------------------------------------------------------------------------------");
 				System.out.println(" ");
 				System.out.println(" ");
-				num2++;
 			}
 		}
-		System.out.print("被隔离的的人数：");
-		for (j = 0; j < num2; j++) {
-			System.out.print("*");
-
-		}
-		System.out.println(" ");
-
 	}
 	/*
 	 * 文件读入
