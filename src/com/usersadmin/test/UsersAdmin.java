@@ -110,11 +110,6 @@ public class UsersAdmin {
 
 	/* 添加用户疫情信息 */
 	public static void add() {
-		/*
-		 * while(true) { System.out.println("请输入2数字继续添加学生信息，返回首页请输入1");
-		 * if(scanner.nextInt()==1) { break; }
-		 */
-
 		System.out.println("请输入该学生的姓名，联系电话，职位，学院，当前所在省，  是否有疑似症状，是否处于隔离期，填报日期");
 		Users[num] = new Users();
 		Users[num].setName(scanner.next());
