@@ -126,10 +126,6 @@ public class UsersAdmin {
 
 	/* 查询某个用户某一天的疫情信息 */
 	public static void query() {
-		/*
-		 * while(true) { System.out.println("请输入2数字继续查询学生信息，返回首页请输入1");
-		 * if(scanner.nextInt()==1) { break; }
-		 */
 		System.out.println("请输入要查询的学生联系电话：");
 		String Usersnum = scanner.next();
 		System.out.println("请输入要查询的日期：");
@@ -218,8 +214,8 @@ public class UsersAdmin {
 		System.out.print("有疫情疑似症状的人数：");
 		for (j = 0; j < num1; j++) {
 			System.out.print("*");
-
 		}
+		System.out.println(" ");
 	}
 
 	/* 被隔离人员信息 */
@@ -236,11 +232,14 @@ public class UsersAdmin {
 						+ "\t" + Users[i].getIsolation() + "\t\t" + Users[i].getDate());
 				System.out.println(
 						"-----------------------------------------------------------------------------------------");
-				System.out.println(" ");
-				System.out.println(" ");
+				num2++;
 			}
 		}
+		System.out.print("被隔离的的人数：");
+		for (j = 0; j < num2; j++) {
+			System.out.print("*");		
 	}
+		System.out.println(" ");
 	/*
 	 * 文件读入
 	 *
