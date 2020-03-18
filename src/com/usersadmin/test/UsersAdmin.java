@@ -196,7 +196,7 @@ public class UsersAdmin {
 	}
 
 	/* 有疑似症状人员信息 */
-	public static void statumessage() {
+	public static void statuMessage() {
 		int i, j, num1 = 0;
 		System.out.println("-----------------------------------------------------------------------------------------");
 		System.out.println(
@@ -219,7 +219,7 @@ public class UsersAdmin {
 	}
 
 	/* 被隔离人员信息 */
-	public static void isolationmessage() {
+	public static void isolationMessage() {
 		int i, j, num2 = 0;
 		for (i = 0; i < num; i++) {
 			if (Users[i].getIsolation().equals("是")) {
