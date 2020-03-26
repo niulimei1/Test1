@@ -35,7 +35,7 @@ public class BarChart {
 		domainAxis.setTickLabelFont(new Font("宋体", Font.BOLD, 12)); // 垂直标题
 		ValueAxis rangeAxis = plot.getRangeAxis();// 获取柱状
 		rangeAxis.setLabelFont(new Font("黑体", Font.BOLD, 15));
-		chart1.getLegend().setItemFont(new Font("黑体", Font.BOLD, 15));
+		chart1.getLegend().setItemFont(new Font("宋体", Font.BOLD, 15));
 		chart1.getTitle().setFont(new Font("宋体", Font.BOLD, 20));// 设置标题字体
 		frame1 = new ChartPanel(chart1, true); // 这里也可以用chartFrame,可以直接生成一个独立的Frame
 	}
